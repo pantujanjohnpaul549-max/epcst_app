@@ -1,0 +1,47 @@
+name: epcst_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ^3.13.1
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.0.0 # Gamitin ito sa halip na image_picker para sa Web & Desktop/Mobile compatibility
+  image_picker: ^1.1.2 # o ang pinakabagong bersyon
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^6.0.0
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+  url_launcher: ^6.3.1
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+  assets:
+    - assets/images/epcst_logo.png
+    - assets/images/animated.gif
+    - assets/images/hello.jpg
+    - assets/images/eastwoods_banner.jpg
+    - assets/images/banner.jpg
+    - assets/images/buildings.jpg
+    - assets/images/ee.jpg
+    - assets/images/build.jpg
+    - assets/images/ComputerEngineering.png
+    - assets/images/hrm.jpg
+    - assets/images/it.jpg
+    - assets/images/tourism.png
+    - assets/images/entre.jpg
+    - assets/images/cs.jpg
+    - assets/images/ACT.png
+    - assets/images/oat.jpg
+ 
